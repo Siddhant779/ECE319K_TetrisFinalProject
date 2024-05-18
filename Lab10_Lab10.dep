@@ -1,0 +1,55 @@
+Dependencies for Project 'Lab10', Target 'Lab10': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup.s)(0x56D73E4A)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\random.s)(0x60931649)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\Lab10.c)(0x6114B03B)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\lab10.o --omf_browse .\lab10.crf --depend .\lab10.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+I (../inc/CortexM.h)(0x5FF617C8)
+I (SSD1306.h)(0x5FFA48DE)
+I (Print.h)(0x5FF7A540)
+I (Random.h)(0x5BF4932A)
+I (ADC.h)(0x608B6420)
+I (Images.h)(0x60C4F867)
+I (Sound.h)(0x60CD14F0)
+I (Timer0.h)(0x5DD99D92)
+I (Timer1.h)(0x608C6E48)
+I (TExaS.h)(0x5FFDDB72)
+I (Switch.h)(0x6000D6B6)
+I (DAC.h)(0x6093169F)
+F (..\inc\CortexM.c)(0x5FF617C8)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\cortexm.o --omf_browse .\cortexm.crf --depend .\cortexm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+F (.\DAC.c)(0x6093167B)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\ADC.c)(0x6093167B)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\Timer0.c)(0x5BF492EA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\Timer1.c)(0x609096FF)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\timer1.o --omf_browse .\timer1.crf --depend .\timer1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\Sound.c)(0x60CD227E)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (Sound.h)(0x60CD14F0)
+I (DAC.h)(0x6093169F)
+F (.\Print.s)(0x608B5CC4)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\print.lst --xref -o .\print.o --depend .\print.d)
+F (.\I2C3.c)(0x5FF7DE08)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\i2c3.o --omf_browse .\i2c3.crf --depend .\i2c3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (../inc/I2C3.h)(0x5FF0B944)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\SSD1306.c)(0x6090B16E)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\ssd1306.o --omf_browse .\ssd1306.crf --depend .\ssd1306.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8F0FB2)
+I (SSD1306.h)(0x5FFA48DE)
+I (../inc/CortexM.h)(0x5FF617C8)
+I (I2C3.h)(0x5FF0B944)
+F (.\Switch.c)(0x6000D5F4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\switch.o --omf_browse .\switch.crf --depend .\switch.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\TExaS.c)(0x60033672)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\.. --C99-I.\RTE\_Lab10-IC:\Users\pandi\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pandi\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="533" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
